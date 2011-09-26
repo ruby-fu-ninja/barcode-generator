@@ -50,9 +50,12 @@ in this case your view will look like :
 ### Installation:
 install from git : script/install plugin git://github.com/anujluthra/barcode-generator.git
 make sure that you install 
-
- 1. gem for gbarcode
- 2. install native ImageMagick library 
+ 
+ 1. install gnu-barcode (brew install gnu-barcode)
+ 2. install ghostscript (brew install ghostscript)
+ 3. install native ImageMagick library (brew install imagemagick)
+ 4. install gem for gbarcode
+ 
 
 ### Supported Barcode Formats:
 Gbarcode as of now allows us to generate barcodes in following formats:
